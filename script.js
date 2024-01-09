@@ -1,6 +1,6 @@
 //your JS code here. If required.
-function hello(){
+function functionName(){
 	console.log("alert"+"("+'"'+arguments.callee.name+'"'+")"+";");
 }
 
-hello();
+functionName();
